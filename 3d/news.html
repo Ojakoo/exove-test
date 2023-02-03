@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>News site</title>
+<head>
+</head>
+<body>
+<h1 class="background">News site</h1>
+<div class="container">
+    <div class="card">
+      <div class="background">
+        <h2>Item heading 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo magna neque, et efficitur nunc placerat ac. Nam nisi dui, consectetur vel cursus sed, ornare a leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras commodo, ipsum vel bibendum dictum, purus risus tempor eros, quis rhoncus justo nulla sed diam. In tincidunt vulputate interdum. Maecenas et urna ut arcu maximus convallis.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="background">
+        <h2>Item heading 2</h2>
+        <p>Mauris mollis pharetra tortor, non lacinia nisl interdum vel. Nam in viverra mauris, at pretium mauris. Quisque non ullamcorper enim. Aenean ac mollis tellus, at dictum magna. Mauris hendrerit tempor lectus, vel bibendum augue maximus ut. In tincidunt tempus aliquam. Donec eros enim, pretium sed tincidunt sit amet, elementum id libero. Vivamus vel nibh accumsan, bibendum quam vitae, viverra orci. Pellentesque sed turpis nec metus feugiat dictum sed quis lacus.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="background">
+        <h2>Item heading 3</h2>
+        <p>Ut ultrices arcu eu eleifend imperdiet. Phasellus bibendum aliquam quam et lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus arcu turpis, venenatis eu congue ut, finibus vitae lorem. Duis maximus volutpat est, quis ullamcorper dui. Ut arcu nibh, malesuada in ex ut, malesuada finibus nulla. Sed condimentum malesuada sem in fermentum. Nam eleifend ullamcorper lacus, ut consequat sapien maximus quis. Ut ultrices arcu eu eleifend imperdiet. Phasellus bibendum aliquam quam et lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus arcu turpis, venenatis eu congue ut, finibus vitae lorem. Duis maximus volutpat est, quis ullamcorper dui. Ut arcu nibh, malesuada in ex ut, malesuada finibus nulla. Sed condimentum malesuada sem in fermentum. Nam eleifend ullamcorper lacus, ut consequat sapien maximus quis.</p>
+      </div>
+    </div>
+</div>
+<div class="background">© News site</div>
+</body>
+</html>
+
+<style>
+  body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  h2 {
+    margin-top: 0px;    
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .card {
+    flex: 33.33%;
+    display: flex;
+  }
+ 
+  @media screen and (max-width: 960px) {
+    .card {
+      flex: 50%;
+    }
+  }
+  
+  .background {
+      background: #f3f3f3;
+      margin: 0.5rem;
+      padding: 1rem;
+      align-items: stretch;
+  }
+</style>
